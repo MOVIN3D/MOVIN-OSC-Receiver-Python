@@ -116,4 +116,3 @@ Viewer controls:
 
 - Motion drawing reconstructs world-space joint positions from transmitted local transforms.
 - Axis colors are `X=red`, `Y=green`, `Z=blue`.
-- Both motion and point cloud are expected on the same OSC port, which matches your Notch reuse case.
