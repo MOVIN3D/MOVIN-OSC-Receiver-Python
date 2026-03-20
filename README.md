@@ -84,7 +84,6 @@ Viewer controls:
 - Up/Down arrows: move camera target vertically
 - `Esc`: exit
 
-## Notes
+## License
 
-- Motion drawing reconstructs world-space joint positions from transmitted local transforms.
-- Axis colors are `X=red`, `Y=green`, `Z=blue`.
+Copyright 2025 MOVIN. All Rights Reserved.
