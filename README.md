@@ -24,6 +24,13 @@ Per-bone payload:
 
 `[boneIndex, parentIndex, boneName, px, py, pz, rqx, rqy, rqz, rqw, qx, qy, qz, qw, sx, sy, sz]`
 
+Where:
+
+- `px, py, pz` are the local position.
+- `rqx, rqy, rqz, rqw` are the rest-pose local rotation.
+- `qx, qy, qz, qw` are the local rotation.
+- `sx, sy, sz` are the local scale.
+
 ### `/MOVIN/PointCloud`
 
 Header:
@@ -33,6 +40,10 @@ Header:
 Per-point payload:
 
 `[x, y, z]`
+
+Where:
+
+- `x, y, z` are the world-coordinate position.
 
 ## Install With Conda
 
